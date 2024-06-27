@@ -13,8 +13,29 @@
 <body>
 
     <div id="app" v-cloak>
-        
-        <h1>{{ pageTitle }}</h1>
+
+        <div class="container text-center my-5">
+
+            <h1 class="my-5">{{ pageTitle }}</h1>
+
+            <div class="row text-center gy-4">
+                <div
+                    class="col-4 position-relative"
+                    v-for="album in album"
+                >
+
+                    <div class="card text-bg-dark border-0">
+                        <img src="./img/retro-background-turntable-vinyl-record-player-vector-1702291.jpg" class="card-img" :alt="album.name">
+                        <div class="card-img-overlay">
+                            <img class="album-cover position-absolute translate-middle" :src="album.coverUrl" :alt="album.name">
+                            <h5 class="card-title mt-4">{{ album.name }}</h5>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
 
     </div>
 

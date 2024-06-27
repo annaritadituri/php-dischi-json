@@ -3,72 +3,84 @@
         "id": 1,
         "name": "Thriller",
         "artist": "Michael Jackson",
-        "year": 1982
+        "year": 1982,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png"
     },
     {
         "id": 2,
         "name": "The Dark Side of the Moon",
         "artist": "Pink Floyd",
-        "year": 1973
+        "year": 1973,
+        "coverUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmLdDf01WHXn-z1-1vvwlZrL8FQj9mysT9wg&s"
     },
     {
         "id": 3,
         "name": "Hotel California",
         "artist": "Eagles",
-        "year": 1976
+        "year": 1976,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg"
     },
     {
         "id": 4,
         "name": "21",
         "artist": "Adele",
-        "year": 2011
+        "year": 2011,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/Adele_-_21.png"
     },
     {
         "id": 5,
         "name": "Born in the U.S.A.",
         "artist": "Bruce Springsteen",
-        "year": 1984
+        "year": 1984,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/31/BruceBorn1984.JPG"
     },
     {
         "id": 6,
         "name": "Gold: Greatest Hits",
         "artist": "ABBA",
-        "year": 1992
+        "year": 1992,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/ABBA_Gold_cover.png"
     },
     {
         "id": 7,
         "name": "Greatest Hits",
         "artist": "Queen",
-        "year": 1981
+        "year": 1981,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Queen_Greatest_Hits.png"
     },
     {
         "id": 8,
         "name": "...Baby One More Time",
         "artist": "Britney Spears",
-        "year": 1999
+        "year": 1999,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/..._Baby_One_More_Time_%28album%29.png"
     },
     {
         "id": 9,
         "name": "Faith",
         "artist": "George Michael",
-        "year": 1987
+        "year": 1987,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/George_Michael_-_Faith.png"
     },
     {
         "id": 10,
         "name": "Midnight Memories",
         "artist": "One Direction",
-        "year": 2013
+        "year": 2013,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/One_Direction_Midnight_Memories_%28Official_Album_Cover%29.png"
     },
     {
         "id": 11,
         "name": "X&Y",
         "artist": "Coldplay",
-        "year": 2005
+        "year": 2005,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Coldplay_X%26Y.svg/1200px-Coldplay_X%26Y.svg.png"
     },
     {
         "id": 12,
         "name": "Millennium",
         "artist": "Backstreet Boys",
-        "year": 1999
+        "year": 1999,
+        "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/f5/Millennium_cover.jpg"
     }
 ]

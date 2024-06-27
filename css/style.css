@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+:root {
+    --color-title: #AB95A9;
+    --light-backgroud: rgb(240, 236, 226);
+    --dark-backgroud: #13272B;
+}
+
 [v-cloak] {
     display: none;
+}
+
+body {
+    background-color: var(--dark-backgroud);
+}
+
+.container {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.container>h1 {
+    font-size: 3rem;
+    color: var(--light-backgroud);
+}
+
+div.card img.album-cover {
+    border-radius: 50%;
+    z-index: 100;
+    width: 41%;
+    top:48%;
+    left:44%;
+    filter: grayscale(40%);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.98);
+}
+
+div.card h5 {
+    color: var(--color-title);
+}
+
+div.card h5::before {
+    content: "";
+    background-color: var(--light-backgroud);
+    border-radius: 50%;
+    width: 14%;
+    height: 14%;
+    display: flex;
+    position: absolute;
+    top: 41.5%;
+    left: 37%;
+    z-index: 300;
 }
